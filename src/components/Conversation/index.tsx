@@ -76,11 +76,12 @@ const Conversation: React.FC<ConversationProps> = () => {
                         id='message-sender'
                         placeholder='Em que posso ajudá-lo?'
                         value={message}
+                        required={true}
                         onChange={e => setMessage(e.target.value)}
                     >
                     </input>
                     <button>
-                        <img src={sendIcon} alt="" width={30} height={23} />
+                        <img src={sendIcon} alt="send message button" width={30} height={23} />
                     </button>
                 </div>
             </form>

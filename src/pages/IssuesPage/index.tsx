@@ -14,7 +14,7 @@ interface IssuesPageProps {
 
 const IssuesPage: React.FC<IssuesPageProps> = () => {
     return (
-        <div id='conversation-page'>
+        <div id='form-page'>
             <aside className="user-side-info">
                 <div className='profile-head'>
                     <img src={UserProfileImg} width={210} height={210} />

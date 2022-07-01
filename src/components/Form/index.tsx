@@ -3,8 +3,6 @@ import fetchFakeMessages from '../../utils/fetchFakeMessages';
 
 import './styles.scss';
 
-import sendIcon from "../../assets/3.png";
-
 interface IssueFormProps {
 
 }
