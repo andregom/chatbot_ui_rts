@@ -1,0 +1,79 @@
+.bot-side-info {
+    width: 280px;
+    padding: 10px;
+    background-color: rgba(224, 197, 235, 0.884);
+    border-style: outset;
+    border: rgba(89, 83, 130, 0.197) solid 2px;
+    border-radius: 10px;
+    color: rgba(129, 68, 143, 0.501);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media (max-width: 750px) {
+    .bot-side-info {
+        visibility: hidden;
+        width: 0;
+    }
+}
+
+.bot-side-info strong {
+    font-size: 20px;
+    color: rgb(135, 28, 147);
+    text-align: center;
+    display: block;
+}
+
+.bot-side-info .profile-head {
+    display: inline;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.bot-side-info .profile-head img {
+    margin: 0;
+    padding: 0;
+}
+
+.bot-side-info .short-desc {
+    color: rgb(165, 106, 182);
+    font-weight: bold;
+    text-decoration: wavy;
+    padding: 20px;
+}
+
+.bot-side-info form {
+    margin-top: 25px;
+}
+
+.bot-side-info form .info-group .info-block {
+    margin-top: 0;
+}
+
+.bot-side-info form .info-block info {
+    width: 100%;
+    height: 32px;
+    font-size: 14px;
+    color: #666;
+    border: 0;
+    border-bottom: 1px solid #eee;
+}
+
+.bot-side-info form button[type=submit] {
+    width: 100%;
+    border: 0;
+    margin-top: 30px;
+    background:#7d40e7;
+    border-radius: 2px;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: margin-right 0.5s;
+}
+
+.bot-side-info form button[type=submit]:hover {
+    background: #6931ca;
+}

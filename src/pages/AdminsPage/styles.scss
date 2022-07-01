@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&display=swap');
+
+.admins-page-body {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.admins-page-body * {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.title-container {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.title-bot {
+    color: #B05CB7
+}
+
+.title-container h1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: calc(min(calc(max(25px, 6vw)), 100px));
+    line-height: 150px;
+
+    color: #5479F7;
+
+    text-shadow: 0px 4px 1px #C099E1;
+}
+
+main {
+    min-width: 230px;
+    position: relative;
+    grid-row: 2;
+    grid-column: 1;
+}
+
+aside {
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.side-image {
+    min-width: 250px;
+    width: 100%;
+    object-fit: fill;
+    object-position: 50% 50%;
+}
+
+.logo-and-title-container {
+    display: flex;
+    flex-direction: column;
+    vertical-align: center;
+    text-align: center;
+}
+
+#infinity {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 312px;
+    padding: 0;
+    margin: 0 auto;
+    height: 10px;
+}
+
+.drop-left {
+    transform: rotate(90deg) translate(-44px, 30px);
+    scale: 2 1.2;
+    padding: 0;
+    margin: 0;
+    width: 55px;
+    height: 60px;
+    overflow-y: auto;
+}
+
+.drop-right {
+    transform: rotate(-90deg) translate(15px, 35px);
+    scale: 2 1.2;
+    padding: 0;
+    margin: 0;
+    width: 55px;
+    height: 60px;
+    overflow-y: auto; 
+}
+
+.button-link {
+    text-decoration: none !important;
+}
+
+.register-button, .talk-button {
+    margin: 0 auto;
+    color: white;
+    font-size: medium;
+    font-weight: bolder;
+    background: #C365A5;
+    border-radius: 50px;
+    border: transparent;
+    padding: 8px 25px;
+    margin: 5px;
+    &:hover {
+        cursor: pointer;
+    }
+}

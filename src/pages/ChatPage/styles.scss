@@ -1,0 +1,19 @@
+#conversation-page {
+    height: 95vh;
+    width: 98.5vw;
+    max-width: 120;
+    margin-top: 0px;
+    margin: 5px auto;
+    padding: 60px 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: rgba(156, 78, 220, 0.233);
+    border: rgba(89, 83, 130, 0.197) solid 0.5px;
+    border-radius: 5px;
+}
+
+#conversation-page main {
+    margin-left: 20px;
+}

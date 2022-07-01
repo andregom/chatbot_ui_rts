@@ -1,0 +1,79 @@
+.messages {
+    background-color: #fecdfc80;
+    border-radius: 10px;
+    border: rgba(195, 165, 246, 0.807) solid 0.4px;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 0px;
+    height: 70vh;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    padding-bottom: 5px;
+    margin-bottom: 4px;
+}
+
+.messages ul{
+    margin-top: 0px;
+    display: inline;
+}
+
+.message-container {
+    display: flexbox;
+    line-height: 40px;
+}
+
+.message-content {
+    width: min-content;
+    display: inline;
+    color: rgb(118, 138, 158);
+    background-color: rgba(253, 253, 253, 0.63);
+    border: rgba(219, 201, 250, 0.693) solid 0.3px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: auto 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.message-sender-form {
+    display: flex;
+}
+
+.message-sender-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.message-sender-container input{
+    width: 100%;
+    padding: 8px;
+    border: rgba(219, 201, 250, 0.693) solid 0.3px;
+    color: rgb(118, 138, 158);
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+    padding-left: 14px;
+    border-radius: 12px;
+    margin-right: 5px;
+    &:focus {
+        outline: none !important;
+        border: rgba(174, 157, 204, 0.976) solid 0.6px !important;
+    }
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.message-sender-container button {
+    margin-right: 0;
+    padding-right: 0;
+    background-color: rgba(140, 53, 136, 0.369);
+    color: white;
+    padding: 2px;
+    border: rgba(192, 157, 204, 0.976) solid 0.6px !important;
+    border-radius: 10px !important;
+    &:hover {
+        background-color: rgb(175, 108, 208);
+        cursor: pointer;
+    }
+}
