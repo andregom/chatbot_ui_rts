@@ -74,7 +74,7 @@ const Conversation: React.FC<ConversationProps> = () => {
                     <input
                         name='message-sender'
                         id='message-sender'
-                        placeholder='Em que posso ajudá-lo?'
+                        placeholder='Em que posso ajudar?'
                         value={message}
                         required={true}
                         onChange={e => setMessage(e.target.value)}
