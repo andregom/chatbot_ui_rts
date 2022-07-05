@@ -74,18 +74,18 @@ aside {
     text-align: center;
 }
 
-#infinity {
+.infinity {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
-    width: 312px;
-    padding: 0;
+    width: min-content;
+    padding: 0 auto;
     margin: 0 auto;
     height: 10px;
 }
 
 .drop-left {
-    transform: rotate(90deg) translate(-44px, 30px);
+    transform: rotate(90deg) translate(-22.5px, 12px);
     scale: 2 1.2;
     padding: 0;
     margin: 0;
@@ -95,7 +95,7 @@ aside {
 }
 
 .drop-right {
-    transform: rotate(-90deg) translate(15px, 35px);
+    transform: rotate(-90deg) translate(15px, 11px);
     scale: 2 1.2;
     padding: 0;
     margin: 0;

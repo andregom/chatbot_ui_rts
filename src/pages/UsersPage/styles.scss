@@ -1,0 +1,29 @@
+.infinity {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: min-content;
+    padding: 0 auto;
+    margin: 0 auto;
+    height: 10px;
+}
+
+.drop-left {
+    transform: rotate(90deg) translate(-22.5px, 12px);
+    scale: 2 1.2;
+    padding: 0;
+    margin: 0;
+    width: 55px;
+    height: 60px;
+    overflow-y: auto;
+}
+
+.drop-right {
+    transform: rotate(-90deg) translate(15px, 11px);
+    scale: 2 1.2;
+    padding: 0;
+    margin: 0;
+    width: 55px;
+    height: 60px;
+    overflow-y: auto; 
+}

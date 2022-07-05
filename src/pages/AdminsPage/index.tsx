@@ -24,7 +24,7 @@ const AdminsPage: React.FC<AdminsPageProps> = () => {
             <div className="admins-page-body">
                 <main>
                     <div className="logo-and-title-container">
-                        <div id="infinity">
+                        <div className="infinity">
                             <svg className="drop-left" width="30%" viewBox="0 0 20 42">
                                 <path fill="#C365A5" stroke="transparent" d="M15 3
                                     Q16.5 6.8 25 18
